@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/629d6582da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/WhatsApp_Image_2023-10-07_at_15.50.26-removebg-preview (1).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                 <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"  onclick="openmenu()"></i>
+               
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Sosten </span><br>Chepkwony from Kenya</h1>
+            </div>
+        </div>
+    </div>
+<!-------------about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/IMG_0675-removebg-preview.png">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                      <h2>With a strong foundation in programming and a creative mindset, I bridge the
+                       gap between strategy and design.<br>
+                       Passionate creator and problem solver, dedicated to crafting meaningfull experience 
+                       through design.</h2> 
+
+                    </p>
+    
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"  onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                           <h3>
+                            <li><span>Graphic Design</span><br>Design graphics </li>
+                            <li><span>UI/UX</span><br>Design Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building android/ios apps</li>
+                           </h3>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <h3><li><span>2024</span><br>
+                                Led the design and development of responsive websites for A diverse range of clients.
+                                Collaborated closely with close functional teams to gather requirements, conduct user research, and create wireframes and prototypes. 
+                                Implement front-end coding and optimized user interfaces for seamless user experience.
+                            
+                            </li>
+                            <li></li>
+                           </h3>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                           <h3> <li><span>2023-2025</span><br>Bachelor Of science in Software Engineering, Zetech University</li>
+                            <li><span>2024</span><br>Web Development, Zetech University</li>
+                             <li><span>2024</span><br>Graphic Designs, </li>
+                           </h3>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------services--------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+           <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              <h3> As a website designer, I blend creativity and technical expedtise to create captivating digital 
+                experiences. With a keen eye for aesthetics and deep understanding of user behaviour,
+                I strive to deliver intuitive and visually appealing websites that drive results.</h3>
+            </p>
+            <a href="#">Learn more</a>
+           </div> 
+           <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+                polikujyhtdysxc pilkuyjdjxcj lukyjdtx  lykfcvhkgukgb uijyvhnm. fyikhvm hkuyjcg mbgfujhgn 
+            </p>
+            <a href="#">Learn more</a>
+           </div> 
+           <div>
+            <i class="fab fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+                polikujyhtdysxc pilkuyjdjxcj lukyjdtx  lykfcvhkgukgb uijyvhnm. fyikhvm hkuyjcg mbgfujhgn 
+            </p>
+            <a href="#">Learn more</a>
+           </div> 
+        </div>
+
+    </div>
+    </div>
+</div>
+<!-----------portfolio----->
+<div id="portfolio" >
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="Work-list">
+            <div class="work">
+                <img src="image/image1.jpg">
+
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you and the talented people around the world.
+                        Download it from play store.<br>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/music.jpg">
+                <div class="layer">
+                <h3>Music App</h3>
+                <p>The app is used to play music offline .<br>
+                    <span>Features:</span><br>&#x2022;Playlist selection.<br>
+                    &#x2022;Play qued music.<br>
+                    Download it from play store.<br>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </p>
+            </div>
+        </div>
+            <div class="work">
+                <img src="image/gaming.jpg">
+                <div class="layer">
+                <h3>Online shopping App</h3>
+                <p>The app is used to order items online.<br>
+                    Download it from play store.<br>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">see more</a>
+</div>
+<!--------contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>sostenchepkwony6@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>0796412410</p>
+                <div class="Social-icons">
+                    <a href="https://facebook.com/sosten Brian"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/gunner6235"><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="image/Explanation_of_how_to_use_the_code_sosten[1].docx" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Sosten. Made with <i class="fas fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function openmenu(){
+            sidemenu.style.right = "-200";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwQ67ht_ZNlApPZxBxcgmfJQZQKB7Z3GDIUmvp9ecPHC2jLQHNIXiC6fGW8LxbK16b3/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
